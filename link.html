@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="link.css">
+</head>
+<body>
+    <div class="a">
+        <form>
+            <h1 class="b">STUDENT REGISTRATION FORM</h1><br><br>
+            <!--Text Field-->
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" placeholder="First name" required><br><br>
+            <!--Text Field-->
+            <label for="name">Last Name:</label>
+            <input type="text" id="name" name="name" placeholder="Last name" required><br><br>
+            <!--Date of Birth Feild-->
+            <label for="date">Date of Birth</label>
+            <input type="date" id="name" name="date" required><br><br>
+            <!--Email Feild-->
+            <label for="email">Email Address:</label>
+            <input type="email" id="name" name="email" required><br><br>
+            <!--Mobile Number Field-->
+            <label for="number">Mobile Number</label>
+            <input type="number" id="name" name="number" required><br><br>
+            <!--Radio Button-->
+            <h2>Gender</h2>
+            <input type="radio" name="gender" id="name" value="male">
+            <label for="male">Male</label><br>
+        
+            <input type="radio" name="gender" id="name" value="female">
+            <label for="female">Female</label><br>
+        
+            <input type="radio" name="gender" id="name" value="other">
+            <label for="other">Other</label><br><br>
+            <!--Textarae-->
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" cols="50px" rows="4px"></textarea><br><br>
+            <!--City Feild-->
+            <label for="city">City:</label>
+            <input type="city" id="city" name="city"><br><br>
+            <!--Password Feild-->
+            <label for="password">Pin Code:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <!--State Feild-->
+            <label for="state">State:</label>
+            <input type="state" id="state" name="state" required><br><br>
+            <!--Dropdown Menu-->
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="korea">Korea</option>
+                <option value="japan">Japan</option>
+                <option value="china">China</option>
+            </select>
+            <!--Checkbox-->
+           <!--Checkbox-->
+           <h2>Hobbies</h2>
+           <input type="radio" id="drawing" name="hobby" value="drawing" onclick="handleSelection(event)">
+           <label for="drawing">Drawing</label><br>
+       
+           <input type="radio" id="singing" name="hobby" value="singing" onclick="handleSelection(event)">
+           <label for="singing">Singing</label><br>
+       
+           <input type="radio" id="dancing" name="hobby" value="dancing" onclick="handleSelection(event)">
+           <label for="dancing">Dancing</label><br>
+       
+           <input type="radio" id="sketching" name="hobby" value="sketching" onclick="handleSelection(event)">
+           <label for="sketching">Sketching</label><br>
+       
+           <input type="radio" id="others" name="hobby" value="others" onclick="handleSelection(event)">
+           <label for="others">Others</label><br><br>
+            <!-- Submit Button -->
+            <input type="submit" value="Submit" id="name"><br><br>
+    
+            <label for="submit" class="submit">When you are done with the form, please submit it.</label>
+
+        </form>
+    </div>
+</body>
+</html>
